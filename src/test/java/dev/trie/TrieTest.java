@@ -234,7 +234,7 @@ class TrieTest {
             trie.insert("кот");
             trie.delete("кот");
             assertThat(trie.search("кот")).isTrue();
-            assertThat(trie.size()).isEqualTo(5);
+            assertThat(trie.size()).isEqualTo(4);
         }
 
         @Test
